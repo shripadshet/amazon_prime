@@ -1,51 +1,25 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom/client";
+import "./ContentTile.css";
 
-function ContentTile(props) {
+function ContentTile({ poster, title, description }) {
   const [isHovering, setIsHovering] = useState(false);
-  // function handleMouseOver() {
-  //   setIsHovering(true);
-  // }
-  // function handleMouseOut() {
-  //   setIsHovering(false);
-  // }
-  const handleMouseOver = () => {
-    setIsHovering(true);
-  };
-  const handleMouseOut = () => {
-    setIsHovering(false);
-  };
+  console.log('desc', description);
+
   return (
     <li
-      onMouseOver={handleMouseOver}
-      onMouseOut={handleMouseOut}
-      style={{ marginRight: 24 }}
-      // height: 140, width: 248
+      className="content-tile"
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
     >
-      <article>
-        <section style={{ zIndex: 2 }}>
-          <div>
-            <img
-              style={{
-                height: 140,
-                width: 248,
-                borderRadius: 8,
-              }}
-              src={props.poster}
-              alt="poster"
-            ></img>
-            {/* {isHovering && (
-              <article>
-                <div></div>
-                <section></section>
-                <h4>abc</h4>
-                <section></section>
-                <div></div>
-              </article>
-            )} */}
-          </div>
-        </section>
-      </article>
+      <div className={`card ${isHovering ? "hovered" : ""}`}>
+        <img src={poster} alt={title} className="poster" />
+        <div className="details">
+          <h2>Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang</h2>
+          <p>Bin Lagnachi Goshta</p>
+          <a href="#" className="cta">Watch Now</a>
+
+        </div>
+      </div>
     </li>
   );
 }

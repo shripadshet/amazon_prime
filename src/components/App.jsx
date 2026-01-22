@@ -3,15 +3,20 @@ import ReactDOM from "react-dom/client";
 import HeaderComp from "./HeaderComp";
 import BodyComp from "./BodyComp";
 import FooterComp from "./FooterComp";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <body style={{ backgroundColor: "black" }}>
-      <HeaderComp />
-      <BodyComp />
-      <FooterComp />
+      <BrowserRouter>
+        <HeaderComp />
+        <BodyComp />
+        <FooterComp />
+      </BrowserRouter>
     </body>
   );
 }
 
 export default App;
+
+

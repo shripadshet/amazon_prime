@@ -15,7 +15,7 @@ function RightArrowButton(props) {
         event.target.previousElementSibling.scrollLeft += 1400; // USE REF HOOK
       }}
       style={{ gridArea: "right" }}
-      //   style={style}
+    //   style={style}
     >
       {/* <img
         src={right_arrow}
