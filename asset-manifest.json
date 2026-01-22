@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/amazon_prime/static/css/main.b8af41dc.css",
+    "main.js": "/amazon_prime/static/js/main.aba45665.js",
+    "static/media/7ec0559f-6180-4b29-becd-0f12f702ec5c._UR3840,1440_SX1440_FMjpg_.jpeg": "/amazon_prime/static/media/7ec0559f-6180-4b29-becd-0f12f702ec5c._UR3840,1440_SX1440_FMjpg_.71f55e2af95d1a2b3862.jpeg",
+    "index.html": "/amazon_prime/index.html",
+    "main.b8af41dc.css.map": "/amazon_prime/static/css/main.b8af41dc.css.map",
+    "main.aba45665.js.map": "/amazon_prime/static/js/main.aba45665.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8af41dc.css",
+    "static/js/main.aba45665.js"
+  ]
+}
