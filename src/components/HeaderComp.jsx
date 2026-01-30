@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom/client";
+import  { useState } from "react";
 import Categories from "./Categories";
 import HeaderCategoryLi from "./HeaderCategoryLi";
 import Languages from "./Languages";

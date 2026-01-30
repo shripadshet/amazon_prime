@@ -1,6 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-// import right_arrow from "../images/right-arrow.png";
+
 
 function RightArrowButton(props) {
   let classname = "arrowbutton";
