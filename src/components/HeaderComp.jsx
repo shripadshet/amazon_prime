@@ -213,7 +213,7 @@ function Header() {
 
                       <span className="header-search-form-span-2">
                         {isEmpty ? null : (
-                          <input
+                          <button
                             onClick={handleChange}
                             type="reset"
                             className="header-search-form-reset"

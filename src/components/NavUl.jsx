@@ -3,13 +3,13 @@
 function NavUl(props) {
 
   return (
-    <li
+    <button
       className="nav-li "
       onClick={() => {
         // setClassName("nav-li x");
         props.onChecked(props.id);
       }}
-    ></li>
+    ></button>
   );
 }
 
