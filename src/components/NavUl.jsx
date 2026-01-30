@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 
 function NavUl(props) {
-  // const [className, setClassName] = useState("nav-li");
 
   return (
     <li

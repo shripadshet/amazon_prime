@@ -18,11 +18,6 @@ function LeftArrowButton(props) {
       style={{ gridArea: "left" }}
       //   style={style}
     >
-      {/* <img
-        src={right_arrow}
-        alt="right"
-        style={{ width: 24, height: 24, transform: "rotate(180deg)" }}
-      ></img> */}
       <svg
         viewBox="0 0 24 24"
         height="24"

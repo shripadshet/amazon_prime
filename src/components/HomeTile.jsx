@@ -3,35 +3,6 @@ import ReactDOM from "react-dom/client";
 import backimg from "../images/7ec0559f-6180-4b29-becd-0f12f702ec5c._UR3840,1440_SX1440_FMjpg_.jpeg";
 
 function ListItem(props) {
-  // const [isVisible, setisVisible] = useState(false);
-
-  // function ObserveFirstChild(event) {
-  //   const observer = new IntersectionObserver(
-  //     (entries) => {
-  //       entries.forEach((entry) => {
-  //         if (entry.isIntersecting) {
-  //           setisVisible(false);
-  //           // console.log("on screen");
-  //         } else {
-  //           setisVisible(true);
-  //           // console.log("not on screen");
-  //         }
-  //       });
-  //     },
-  //     { rootMargin: "100% 0% 100% 0%" }
-  //     // { threshold: 1 }
-  //   );
-  //   observer.observe(event);
-  // }
-
-  // onScroll={(event) => {
-  //   ObserveFirstChild(event.target.firstChild);
-  //   ObserveLastChild(event.target.lastChild);
-  // }}
-
-  // setTimeout(() => {
-  //   console.log("Delayed for 1 second.");
-  // }, 1000);
 
   return (
     <li

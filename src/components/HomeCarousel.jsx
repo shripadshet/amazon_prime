@@ -6,42 +6,11 @@ import NavUl from "./NavUl";
 import LeftArrowButton from "./LeftArrowButton";
 import RightArrowButton from "./RightArrowButton";
 
-// function InputListItem(listitem) {
-//   return (
-//     <HomeTile
-//       poster={listitem.poster}
-//       released={listitem.released}
-//       rated={listitem.rated}
-//       images={listitem.images[0]}
-//     />
-//   );
-// }
-// function NavigationList() {
-//   return <NavUl />;
-// }
-
 function HomeCarousel() {
   const [leftVisibility, setLeftVisibility] = useState(false);
   const [rightVisibility, setRightVisibility] = useState(false);
 
-  // setTimeout(() => {
-  //   console.log("this is the first message");
-  //   const fgh = document.getElementsByClassName("home-ul")[0].children;
-  //   for (let i = 0; i < fgh.length; i++) {
-  //     fgh[i].scrollIntoView();
-  //     // console.log(fgh[i]);
-  //   }
-  // }, 1000);
-  // const fgh = document.getElementsByClassName("home-ul")[0].children;
-  // for (let i = 0; i < fgh.length; i++) {
-  //   setInterval(fgh[i].scrollIntoView(), 30000);
-  //   fgh[i].scrollIntoView();
-  // }
 
-  // setInterval(
-  //   (document.getElementsByClassName("home-ul")[0].scrollLeft += 1400),
-  //   3000
-  // );
 
   function ObserveFirstChild(event) {
     const observer = new IntersectionObserver(

@@ -17,11 +17,7 @@ function RightArrowButton(props) {
       style={{ gridArea: "right" }}
     //   style={style}
     >
-      {/* <img
-        src={right_arrow}
-        alt="right"
-        style={{ width: 24, height: 24 }}
-      ></img> */}
+
       <svg
         viewBox="0 0 24 24"
         height="24"
