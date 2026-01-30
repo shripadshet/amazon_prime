@@ -63,7 +63,7 @@ function ListItem(props) {
                 <div className="home-tile-details-buttons-play-div1">
                   <div className="home-tile-details-buttons-play-div2 ">
                     <label className="home-tile-details-buttons-play-label">
-                      <a className="home-tile-details-buttons-play-a" href="#">
+                      <a className="home-tile-details-buttons-play-a" href="/home1">
                         <svg
                           className="_22qEau"
                           viewBox="0 0 80 80"

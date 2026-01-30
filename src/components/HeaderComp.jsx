@@ -63,7 +63,7 @@ function Header() {
                       <ul className="header-dropdown-list">
                         <li className="header-dropdown-listitem">
                           <a
-                          href="#"
+                          href="/home"
                             className="header-dropdown-listitem-anchor"
                           >
                             All
@@ -71,7 +71,7 @@ function Header() {
                         </li>
                         <li className="header-dropdown-listitem">
                           <a
-                           href="#"
+                           href="/movies"
                             className="header-dropdown-listitem-anchor"
                           >
                             Movies
@@ -79,7 +79,7 @@ function Header() {
                         </li>
                         <li className="header-dropdown-listitem">
                           <a
-                            href="#"
+                            href="/tvshows"
                             className="header-dropdown-listitem-anchor"
                           >
                             TV shows
@@ -107,7 +107,7 @@ function Header() {
                       <ul className="header-dropdown-list">
                         <li className="header-dropdown-listitem">
                           <a
-                         href="#"
+                         href="/movies"
                             className="header-dropdown-listitem-anchor"
                           >
                             All
@@ -115,7 +115,7 @@ function Header() {
                         </li>
                         <li className="header-dropdown-listitem">
                           <a
-                            href="#"
+                            href="/rent"
                             className="header-dropdown-listitem-anchor"
                           >
                             Rent
@@ -123,7 +123,7 @@ function Header() {
                         </li>
                         <li className="header-dropdown-listitem">
                           <a
-                           href="#"
+                           href="/channels"
                             className="header-dropdown-listitem-anchor"
                           >
                             Channels
