@@ -34,7 +34,7 @@ function Header() {
       >
         <div className="header-div-2">
           <div className="header-div-3">
-            <a className="header-anchor" href="">
+            <a className="header-anchor" href="/home2">
               <img
                 className="header-anchor-img"
                 src="https://m.media-amazon.com/images/G/01/digital/video/web/Logo-min.png"
