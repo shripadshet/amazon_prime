@@ -124,7 +124,7 @@ function ListItem(props) {
                   </label>
                 </div>
                 <div className="home-tile-details-buttons-info-div">
-                  <a href="/home" className="home-tile-details-buttons-info-a">
+                  <a href="/home1" className="home-tile-details-buttons-info-a">
                     <svg
                       viewBox="0 0 24 24"
                       height="24"
