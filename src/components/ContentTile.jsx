@@ -16,7 +16,7 @@ function ContentTile({ poster, title, description }) {
         <div className="details">
           <h2>Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang</h2>
           <p>Bin Lagnachi Goshta</p>
-          <a href="#" className="cta">Watch Now</a>
+          <a href="/watch" className="cta">Watch Now</a>
 
         </div>
       </div>

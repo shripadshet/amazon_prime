@@ -46,7 +46,7 @@ function Header() {
                 <ol className="header-ol">
                   <li className="header-li header-li-position">
                     <label className="header-li-label">
-                      <a href="#" className="header-li-anchor">
+                      <a href="/home" className="header-li-anchor">
                         Home
                         <div className="header-li-arrow-div">
                           {/* <svg
@@ -90,7 +90,7 @@ function Header() {
                   </li>
                   <li className="header-li header-li-position">
                     <label className="header-li-label">
-                      <a href="" className="header-li-anchor">
+                      <a href="/movies" className="header-li-anchor">
                         Movies
                         <div className="header-li-arrow-div">
                           {/* <svg
@@ -134,14 +134,14 @@ function Header() {
                   </li>
                   <li className="header-li header-li-position">
                     <label className="header-li-label">
-                      <a href="#" className="header-li-anchor">
+                      <a href="/tvshows" className="header-li-anchor">
                         TV Shows
                       </a>
                     </label>
                   </li>
                   <li className="header-li category-li">
                     <label className="header-li-label">
-                      <a href="#" className="header-li-anchor">
+                      <a href="/livetv" className="header-li-anchor">
                         Live TV
                         <div className="header-li-arrow-div">
                           {/* <svg
@@ -241,19 +241,19 @@ function Header() {
                         <label className="qwert-label">Your Account</label>
                         <ul className="header-nav-profileinfo-ul">
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="#">Help</a>
+                            <a href="/help">Help</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="#">Watch Anywhere</a>
+                            <a href="/watchanywhere">Watch Anywhere</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="#">Account & Settings</a>
+                            <a href="/accountsettings">Account & Settings</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="#">Prime Benefits</a>
+                            <a href="/primebenefits">Prime Benefits</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="#">Sign out</a>
+                            <a href="/signout">Sign out</a>
                           </li>
                         </ul>
                       </div>
@@ -261,16 +261,16 @@ function Header() {
                         <label className="qwert-label">Profiles</label>
                         <ul className="header-nav-profileinfo-ul">
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="#">Profile A</a>
+                            <a href="/profileA">Profile A</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="#">Profile B</a>
+                            <a href="/profileB">Profile B</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="#">Profile C</a>
+                            <a href="/profileC">Profile C</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li add-button">
-                            <a href="#">
+                            <a href="/profileadd" className="header-nav-add-profile-a">
                               <span className="header-nav-add-profile-span-1"></span>
                               <span className="header-nav-add-profile-span-2">
                                 Add new
@@ -278,10 +278,10 @@ function Header() {
                             </a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="#">Manage profiles</a>
+                            <a href="/manageprofiles">Manage profiles</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="#">Learn more</a>
+                            <a href="/learnmore">Learn more</a>
                           </li>
                         </ul>
                       </div>

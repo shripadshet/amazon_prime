@@ -38,7 +38,7 @@ function ListItem(props) {
           </div>
           <section className="home-tile-details-section">
             <h2 className="home-tile-details-poster">
-              <a href="#">
+              <a href="/home">
                 <div className="home-tile-details-img-div">
                   <img
                     className="home-tile-details-img"
@@ -124,7 +124,7 @@ function ListItem(props) {
                   </label>
                 </div>
                 <div className="home-tile-details-buttons-info-div">
-                  <a href="#" className="home-tile-details-buttons-info-a">
+                  <a href="/home" className="home-tile-details-buttons-info-a">
                     <svg
                       viewBox="0 0 24 24"
                       height="24"
