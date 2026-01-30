@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom/client";
+import  { useState } from "react";
 import HomeTile from "./HomeTile";
 import HomeTileData from "./HomeTileData";
 import NavUl from "./NavUl";

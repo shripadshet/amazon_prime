@@ -38,7 +38,7 @@ function ListItem(props) {
           </div>
           <section className="home-tile-details-section">
             <h2 className="home-tile-details-poster">
-              <a href="">
+              <a href="#">
                 <div className="home-tile-details-img-div">
                   <img
                     className="home-tile-details-img"
@@ -63,7 +63,7 @@ function ListItem(props) {
                 <div className="home-tile-details-buttons-play-div1">
                   <div className="home-tile-details-buttons-play-div2 ">
                     <label className="home-tile-details-buttons-play-label">
-                      <a className="home-tile-details-buttons-play-a" href="">
+                      <a className="home-tile-details-buttons-play-a" href="#">
                         <svg
                           className="_22qEau"
                           viewBox="0 0 80 80"
@@ -124,7 +124,7 @@ function ListItem(props) {
                   </label>
                 </div>
                 <div className="home-tile-details-buttons-info-div">
-                  <a href="" className="home-tile-details-buttons-info-a">
+                  <a href="#" className="home-tile-details-buttons-info-a">
                     <svg
                       viewBox="0 0 24 24"
                       height="24"

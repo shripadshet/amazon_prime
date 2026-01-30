@@ -46,7 +46,7 @@ function Header() {
                 <ol className="header-ol">
                   <li className="header-li header-li-position">
                     <label className="header-li-label">
-                      <a href="" className="header-li-anchor">
+                      <a href="#" className="header-li-anchor">
                         Home
                         <div className="header-li-arrow-div">
                           {/* <svg
@@ -63,7 +63,7 @@ function Header() {
                       <ul className="header-dropdown-list">
                         <li className="header-dropdown-listitem">
                           <a
-                            href=""
+                          href="#"
                             className="header-dropdown-listitem-anchor"
                           >
                             All
@@ -71,7 +71,7 @@ function Header() {
                         </li>
                         <li className="header-dropdown-listitem">
                           <a
-                            href=""
+                           href="#"
                             className="header-dropdown-listitem-anchor"
                           >
                             Movies
@@ -79,7 +79,7 @@ function Header() {
                         </li>
                         <li className="header-dropdown-listitem">
                           <a
-                            href=""
+                            href="#"
                             className="header-dropdown-listitem-anchor"
                           >
                             TV shows
@@ -107,7 +107,7 @@ function Header() {
                       <ul className="header-dropdown-list">
                         <li className="header-dropdown-listitem">
                           <a
-                            href=""
+                         href="#"
                             className="header-dropdown-listitem-anchor"
                           >
                             All
@@ -115,7 +115,7 @@ function Header() {
                         </li>
                         <li className="header-dropdown-listitem">
                           <a
-                            href=""
+                            href="#"
                             className="header-dropdown-listitem-anchor"
                           >
                             Rent
@@ -123,7 +123,7 @@ function Header() {
                         </li>
                         <li className="header-dropdown-listitem">
                           <a
-                            href=""
+                           href="#"
                             className="header-dropdown-listitem-anchor"
                           >
                             Channels
@@ -134,14 +134,14 @@ function Header() {
                   </li>
                   <li className="header-li header-li-position">
                     <label className="header-li-label">
-                      <a href="" className="header-li-anchor">
+                      <a href="#" className="header-li-anchor">
                         TV Shows
                       </a>
                     </label>
                   </li>
                   <li className="header-li category-li">
                     <label className="header-li-label">
-                      <a href="" className="header-li-anchor">
+                      <a href="#" className="header-li-anchor">
                         Live TV
                         <div className="header-li-arrow-div">
                           {/* <svg
@@ -241,19 +241,19 @@ function Header() {
                         <label className="qwert-label">Your Account</label>
                         <ul className="header-nav-profileinfo-ul">
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="">Help</a>
+                            <a href="#">Help</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="">Watch Anywhere</a>
+                            <a href="#">Watch Anywhere</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="">Account & Settings</a>
+                            <a href="#">Account & Settings</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="">Prime Benefits</a>
+                            <a href="#">Prime Benefits</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="">Sign out</a>
+                            <a href="#">Sign out</a>
                           </li>
                         </ul>
                       </div>
@@ -261,16 +261,16 @@ function Header() {
                         <label className="qwert-label">Profiles</label>
                         <ul className="header-nav-profileinfo-ul">
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="">Profile A</a>
+                            <a href="#">Profile A</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="">Profile B</a>
+                            <a href="#">Profile B</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="">Profile C</a>
+                            <a href="#">Profile C</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li add-button">
-                            <a href="">
+                            <a href="#">
                               <span className="header-nav-add-profile-span-1"></span>
                               <span className="header-nav-add-profile-span-2">
                                 Add new
@@ -278,10 +278,10 @@ function Header() {
                             </a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="">Manage profiles</a>
+                            <a href="#">Manage profiles</a>
                           </li>
                           <li className="header-nav-profileinfo-ul-li">
-                            <a href="">Learn more</a>
+                            <a href="#">Learn more</a>
                           </li>
                         </ul>
                       </div>
